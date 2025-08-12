@@ -1,0 +1,200 @@
+export const books = [
+    {
+        id: 13,
+        title: "Midnight Tides",
+        authorId: 6,
+        seriesId: 4,
+        year: 2004,
+        description: "The fifth book in the Malazan Book of the Fallen series, exploring new continents and cultures, and the clash of empires and destinies.",
+        cover: "/covers/MidnightTides.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-09"
+    },
+    {
+        id: 14,
+        title: "The Bonehunters",
+        authorId: 6,
+        seriesId: 4,
+        year: 2006,
+        description: "The sixth book in the Malazan Book of the Fallen series, following the aftermath of war and the rise of new powers.",
+        cover: "/covers/TheBonehunters.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-10"
+    },
+    {
+        id: 15,
+        title: "Reaper's Gale",
+        authorId: 6,
+        seriesId: 4,
+        year: 2007,
+        description: "The seventh book in the Malazan Book of the Fallen series, weaving together multiple storylines in a tale of vengeance and fate.",
+        cover: "/covers/ReapersGale.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-11"
+    },
+    {
+        id: 16,
+        title: "Toll the Hounds",
+        authorId: 6,
+        seriesId: 4,
+        year: 2008,
+        description: "The eighth book in the Malazan Book of the Fallen series, returning to Darujhistan for a story of death, memory, and redemption.",
+        cover: "/covers/TollTheHounds.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-12"
+    },
+    {
+        id: 17,
+        title: "Dust of Dreams",
+        authorId: 6,
+        seriesId: 4,
+        year: 2009,
+        description: "The ninth book in the Malazan Book of the Fallen series, setting the stage for the final confrontation and the fate of the world.",
+        cover: "/covers/DustOfDreams.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-13"
+    },
+    {
+        id: 18,
+        title: "The Crippled God",
+        authorId: 6,
+        seriesId: 4,
+        year: 2011,
+        description: "The tenth and final book in the Malazan Book of the Fallen series, bringing the epic saga to a powerful and emotional conclusion.",
+        cover: "/covers/TheCrippledGod.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-14"
+    },
+    {
+        id: 9,
+        title: "Gardens of the Moon",
+        authorId: 6,
+        seriesId: 4,
+        year: 1999,
+        description: "The first book in the Malazan Book of the Fallen series, introducing a vast world of magic, war, and intrigue. Gardens of the Moon sets the stage for a sprawling epic, filled with unforgettable characters, shifting alliances, and a tapestry of myth and history. Erikson's world-building and philosophical depth make this a must-read for fans of complex fantasy.",
+        cover: "/covers/GardensOfTheMoon.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-01"
+    },
+    {
+        id: 10,
+        title: "Deadhouse Gates",
+        authorId: 6,
+        seriesId: 4,
+        year: 2000,
+        description: "The second book in the Malazan Book of the Fallen series, following new characters and epic journeys. Deadhouse Gates explores themes of survival, loyalty, and the cost of war, with a harrowing Chain of Dogs storyline that is both brutal and deeply moving.",
+        cover: "/covers/DeadhouseGates.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-02"
+    },
+    {
+        id: 11,
+        title: "Memories of Ice",
+        authorId: 6,
+        seriesId: 4,
+        year: 2001,
+        description: "The third book in the Malazan Book of the Fallen series, continuing the saga of gods and mortals. Memories of Ice brings together old and new characters in a tale of sacrifice, redemption, and the struggle against ancient evils, with emotional depth and epic battles.",
+        cover: "/covers/MemoriesOfIce.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-03"
+    },
+    {
+        id: 12,
+        title: "House of Chains",
+        authorId: 6,
+        seriesId: 4,
+        year: 2002,
+        description: "The fourth book in the Malazan Book of the Fallen series, expanding the world and its conflicts. House of Chains delves into the origins of iconic characters and the consequences of power, weaving together multiple storylines in a masterful narrative.",
+        cover: "/covers/HouseOfChains.jpg",
+        genres: ["Epic Fantasy"],
+        dateAdded: "2025-08-04"
+    },
+    {
+        id: 1,
+        title: "The Great Gatsby",
+        authorId: 1,
+        seriesId: null,
+        year: 1925,
+        description: "A novel about the American dream and the roaring twenties. The Great Gatsby explores themes of love, ambition, and the illusion of happiness, set against the backdrop of Jazz Age decadence. Fitzgerald's lyrical prose and tragic characters make this a timeless classic.",
+        cover: "/covers/TheGreatGatsby.jpg",
+        genres: ["Classic", "Literary Fiction"],
+        dateAdded: "2025-07-20"
+    },
+    {
+        id: 2,
+        title: "To Kill a Mockingbird",
+        authorId: 2,
+        seriesId: null,
+        year: 1960,
+        description: "A story of racial injustice and childhood innocence in the Deep South. To Kill a Mockingbird is a powerful exploration of morality, empathy, and the complexities of human nature, told through the eyes of young Scout Finch.",
+        cover: "/covers/ToKillAMockingbird.jpg",
+        genres: ["Classic", "Historical Fiction"],
+        dateAdded: "2025-07-21"
+    },
+    {
+        id: 3,
+        title: "Harry Potter and the Sorcerer's Stone",
+        authorId: 3,
+        seriesId: 1,
+        year: 1997,
+        description: "The first book in the Harry Potter series, introducing the world of magic. Harry Potter and the Sorcerer's Stone invites readers into a magical world of friendship, courage, and discovery, where the ordinary becomes extraordinary.",
+        cover: "/covers/HarryPotterAndTheSorcerersStone.jpg",
+        genres: ["Fantasy", "Young Adult"],
+        dateAdded: "2025-07-22"
+    },
+    {
+        id: 4,
+        title: "Nevernight",
+        authorId: 4,
+        seriesId: 2,
+        year: 2016,
+        description: "The first book in the Nevernight Chronicle, following Mia Corvere's quest for vengeance. Nevernight is a dark, gritty tale of revenge, set in a world where the sun rarely shines and assassins rule the shadows. Kristoff's sharp wit and vivid imagery create a unique fantasy experience.",
+        cover: "/covers/Nevernight.jpg",
+        genres: ["Fantasy", "Dark Fantasy"],
+        dateAdded: "2025-08-05"
+    },
+    {
+        id: 5,
+        title: "Godsgrave",
+        authorId: 4,
+        seriesId: 2,
+        year: 2017,
+        description: "The second book in the Nevernight Chronicle, continuing Mia's journey in a world of assassins. Godsgrave raises the stakes with deadly gladiatorial combat, political intrigue, and Mia's relentless pursuit of justice.",
+        cover: "/covers/Godsgrave.jpg",
+        genres: ["Fantasy", "Dark Fantasy"],
+        dateAdded: "2025-08-06"
+    },
+    {
+        id: 6,
+        title: "Darkdawn",
+        authorId: 4,
+        seriesId: 2,
+        year: 2019,
+        description: "The final book in the Nevernight Chronicle, concluding Mia Corvere's story. Darkdawn delivers a thrilling and emotional conclusion, as secrets are revealed and destinies fulfilled in a world of darkness and hope.",
+        cover: "/covers/Darkdawn.jpg",
+        genres: ["Fantasy", "Dark Fantasy"],
+        dateAdded: "2025-08-07"
+    },
+    {
+        id: 7,
+        title: "The Serpent and the Wings of Night",
+        authorId: 5,
+        seriesId: 3,
+        year: 2022,
+        description: "A fantasy novel by Carissa Broadbent, first in the Crowns of Nyaxia series. The Serpent and the Wings of Night blends romance, danger, and magic, as a mortal girl enters a deadly vampire competition for a chance at freedom and love.",
+        cover: "/covers/TheSerpentAndTheWingsOfNight.jpg",
+        genres: ["Fantasy", "Romance"],
+        dateAdded: "2025-07-30"
+    },
+    {
+        id: 8,
+        title: "The Ashes and the Star-Cursed King",
+        authorId: 5,
+        seriesId: 3,
+        year: 2023,
+        description: "The second book in the Crowns of Nyaxia series by Carissa Broadbent. The Ashes and the Star-Cursed King continues the saga with high stakes, forbidden love, and the struggle for power in a world ruled by darkness.",
+        cover: "/covers/TheAshesAndTheStarCursedKing.jpg",
+        genres: ["Fantasy", "Romance"],
+        dateAdded: "2025-08-08"
+    }
+];

@@ -1,0 +1,112 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff8e1;
+}
+
+span{
+  margin-top: 0.5rem;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #8b5c2a 0%,
+    #a9744f 25%,
+    #c8a165 50%,
+    #ebd9b4 75%,
+    #fff8e1 100%
+  );
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+
+.ui.pagination,
+.ui.button {
+  background-color: transparent; /* dark wood brown */
+  color: #000; /* creamy wood highlight */
+  border: none;
+}
+
+
+.ui.button:hover {
+    background-color: transparent;
+    color: #fff8e1;
+  
+}
+
+.ui.inverted.menu {
+  background-image: linear-gradient(
+    135deg,
+    rgba(139, 92, 42, 0.95) 0%,
+    /* dark wood brown */ rgba(169, 116, 79, 0.85) 40%,
+    /* medium wood brown */ rgba(200, 161, 101, 0.8) 80%,
+    /* light wood brown */ rgba(235, 217, 180, 0.7) 100% /* pale wood */
+  ) !important;
+}
+
+.ui.segment,
+.ui.container {
+  background-color: transparent;
+}
+
+
+
+.container-with-pagination .ui.pagination {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  align-self: center;
+}
+
+.ui.segment.masthead {
+  min-height: 100vh;
+  width: 100vw;
+  background: url('/library.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.ui.segment.masthead::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(36, 36, 36, 0.5);
+}
+.ui.segment.masthead .button {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
+  background: transparent;
+  border: none;
+}
+
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+}
+
